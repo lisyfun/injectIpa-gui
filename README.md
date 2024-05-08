@@ -41,9 +41,8 @@ wails build
 ```
 
 ## 注意
-> 使用`which injectipa`查询`injectipa`的可执行路径  
-> 如果路径不是在`/usr/local/bin/injectipa`下,则需要修改源码中的路径
-> 
+> 使用`which injectipa`查询`injectipa`的可执行路径;如果路径不是在`/usr/local/bin/injectipa`下,则需要修改源码中的路径
+
 #### `app.go`
 ```go
 - 64	// 执行命令时必须指定全路径
