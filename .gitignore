@@ -3,6 +3,7 @@ node_modules
 frontend/dist
 frontend/.history
 frontend/package.json.md5
+frontend/yarn.lock
 .idea
 .DS_Store
 .history
