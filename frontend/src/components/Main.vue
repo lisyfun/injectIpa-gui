@@ -1,7 +1,7 @@
 <script setup>
-// 上传并显示上传文件名
 import {OpenFileDlgAndGenerateFile} from "../../wailsjs/go/main/App.js";
 
+// 上传并生成文件
 const uploadFile = () => {
   OpenFileDlgAndGenerateFile().then(()=>{console.log("ok")})
 };
