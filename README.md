@@ -49,4 +49,4 @@ wails build
 - 65	cmd := exec.Command("/usr/local/bin/injectipa", args...)
 ```
 ## 项目效果
-![injectIpa-gui](https://cdn.jsdelivr.net/gh/lisyfun/injectIpa-gui/doc/injectIpa-gui.gif)
+![image](https://cdn.jsdelivr.net/gh/lisyfun/injectIpa-gui/doc/injectIpa-gui.gif)
