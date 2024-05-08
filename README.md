@@ -26,15 +26,22 @@ injectipa v1.3-5 © 2018 - 2023 | Developed ♥︎ by Netskao | initnil.com
 ```sh
 git clone https://github.com/lisyfun/injectIpa-gui.git
 ```
+
 ### 2. 安装项目中的`pkg/injectipa.pkg` ,目前只支持 mac 系统
+```sh
+open pkg/injectipa.pkg
+```
+
 ### 3. 加载前端依赖
- ```sh
- cd frontend && yarn && cd ..
- ```
+```sh
+cd frontend && yarn && cd ..
+```
+
 ### 4. 启动项目
 ```sh
 wails dev
 ```
+
 ### 5. 构建项目
 ```sh
 wails build
@@ -49,4 +56,4 @@ wails build
 - 65	cmd := exec.Command("/usr/local/bin/injectipa", args...)
 ```
 ## 项目效果
-![image](https://cdn.jsdelivr.net/gh/lisyfun/injectIpa-gui/doc/injectIpa-gui.gif)
+![injectIpa-gui](https://cdn.jsdelivr.net/gh/lisyfun/injectIpa-gui/doc/injectIpa-gui.gif)
