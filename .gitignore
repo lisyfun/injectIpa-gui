@@ -2,6 +2,8 @@ build/bin
 node_modules
 frontend/dist
 frontend/.history
+frontend/package.json.md5
 .idea
 .DS_Store
 .history
+
