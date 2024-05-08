@@ -21,3 +21,25 @@ injectipa ipa路径 dylib路径 (如有多个dylib依次填写在末尾即可)
 关于: 
 injectipa v1.3-5 © 2018 - 2023 | Developed ♥︎ by Netskao | initnil.com 
 ```
+## 使用方法
+### 1. 下载源码
+  > `git clone https://github.com/lisyfun/injectIpa-gui.git`
+### 2. 安装项目中的`pkg/injectipa.pkg` ,目前只支持 mac 系统
+### 3. 加载前端依赖
+ > ` cd frontend && yarn && cd ..`
+### 4. 启动项目
+> `wails dev`
+### 5. 构建项目
+> `wails build`
+
+## 注意
+> 使用`which injectipa`查询`injectipa`的可执行路径  
+> 如果路径不是在`/usr/local/bin/injectipa`下,则需要修改源码中的路径
+> 
+#### `app.go`
+```go
+- 64	// 执行命令时必须指定全路径
+- 65	cmd := exec.Command("/usr/local/bin/injectipa", args...)
+```
+## 项目效果
+
