@@ -2,6 +2,7 @@ package main
 
 import (
 	"embed"
+
 	"github.com/wailsapp/wails/v2/pkg/runtime"
 
 	"github.com/wailsapp/wails/v2"
@@ -22,17 +23,17 @@ func main() {
 		AssetServer: &assetserver.Options{
 			Assets: assets,
 		},
-		BackgroundColour: &options.RGBA{R: 27, G: 38, B: 54, A: 1},
+		BackgroundColour: &options.RGBA{R: 28, G: 28, B: 28, A: 1},
 		OnStartup:        app.startup,
 		Bind: []interface{}{
 			app,
 		},
 		DisableResize: true,
 		AlwaysOnTop:   true,
-		MinWidth:      306,
-		MinHeight:     241,
-		MaxWidth:      306,
-		MaxHeight:     241,
+		MinWidth:      230,
+		MinHeight:     200,
+		MaxWidth:      230,
+		MaxHeight:     200,
 	})
 
 	if err != nil {
